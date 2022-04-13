@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--Relative Layout 1-->
+
+    <RelativeLayout
+        android:layout_width="406dp"
+        android:layout_height="363dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="John Doe's Workouts"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--Green line-->
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_marginTop="40dp"
+            android:background="#7fe1ad"
+            android:elevation="10dp"
+            android:foregroundGravity="center" />
+
+
+        <!--John Doe Workouts TableLayout-->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_marginTop="47dp"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/buttonPush"
+                    android:layout_width="410dp"
+                    android:layout_height="45dp"
+                    android:text="Workout 1: Push"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <Button
+                android:id="@+id/buttonPull"
+                android:layout_width="410dp"
+                android:layout_height="48dp"
+                android:text="Workout 2: Pull"
+                android:textAlignment="viewStart"
+                android:textColor="#000000" />
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <Button
+                android:id="@+id/buttonLegs"
+                android:layout_width="410dp"
+                android:layout_height="48dp"
+                android:text="Workout 3: Legs"
+                android:textAlignment="viewStart"
+                android:textColor="#000000" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <Button
+                android:id="@+id/buttonAbs"
+                android:layout_width="410dp"
+                android:layout_height="45dp"
+                android:text="Workout 4: Abs"
+                android:textAlignment="viewStart"
+                android:textColor="#000000" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <Button
+                android:id="@+id/buttonCardio"
+                android:layout_width="410dp"
+                android:layout_height="48dp"
+                android:text="Workout 5: Cardio"
+                android:textAlignment="viewStart"
+                android:textColor="#000000" />
+        </TableLayout>
+        <!--John Doe Workouts TableLayout End-->
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_marginTop="40dp"
+            android:background="#7fe1ad"
+            android:elevation="10dp"
+            android:foregroundGravity="center" />
+    </RelativeLayout>
+    <!--Relative Layout 1 End-->
+
+    <!--Relative Layout 2-->
+    <RelativeLayout
+        android:layout_width="416dp"
+        android:layout_height="677dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="73dp"
+            android:layout_marginBottom="330dp"
+            android:gravity="center"
+            android:text="Bee Fit Workouts"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="430dp" />
+
+        <!--Green line-->
+
+        <!--BeeFit Workouts TableLayout2-->
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            android:layout_marginTop="350dp"
+            android:background="#7fe1ad"
+            android:elevation="10dp"
+            android:foregroundGravity="center" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="400dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/Workout1"
+                    android:layout_width="410dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="Workout 1: Full Body"
+                    android:textAlignment="viewStart"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <Button
+                android:id="@+id/Workout2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Workout 2: Upper Body"
+                android:textAlignment="viewStart"
+                android:textColor="#000000" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <Button
+                android:id="@+id/Workout3"
+                android:layout_width="410dp"
+                android:layout_height="45dp"
+                android:text="Workout 3: Legs and abs"
+                android:textAlignment="viewStart"
+                android:textColor="#000000" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <Button
+                android:id="@+id/Workout4"
+                android:layout_width="410dp"
+                android:layout_height="48dp"
+                android:text="Workout 4: HIT Workout"
+                android:textAlignment="viewStart"
+                android:textColor="#000000" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></TableRow>
+
+            <Button
+                android:id="@+id/Workout5"
+                android:layout_width="410dp"
+                android:layout_height="48dp"
+                android:text="Workout 5: Stretching and mobility"
+                android:textAlignment="viewStart"
+                android:textColor="#000000" />
+        </TableLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
